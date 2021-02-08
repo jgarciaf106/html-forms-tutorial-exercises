@@ -1,0 +1,31 @@
+body {
+	background-color: #072657;
+	text-align: center;
+	margin-top: 15%;
+}
+h1 {
+	color: white;
+	font-weight: bold;
+}
+input {
+	height: 35px;
+	width: 300px;
+	border-radius: 4px;
+	background-color: #051a3d;
+	display: block;
+	margin: 10px auto;
+	border: solid #03142f 1px;
+}
+input::placeholder {
+	color: gray;
+	font-weight: bold;
+	padding-left: 5px;
+}
+button {
+	height: 38px;
+	width: 308px;
+	border-radius: 4px;
+	background-color: #4874d7;
+	color: white;
+	font-weight: bold;
+}
