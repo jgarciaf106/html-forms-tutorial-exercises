@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>4Geeks Academy</title>
-</head>
-<body>
-<form>
-<!-- your code here -->
-</form>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+
+		<style>
+			table {
+				border: double black 3px;
+				width: 20%;
+			}
+			td,
+			th {
+				border: black 1px double;
+			}
+			th {
+				background-color: #ccccff;
+			}
+			#description {
+				width: 97%;
+				height: 70px;
+			}
+			#submit-button {
+				margin-left: 25%;
+				margin-right: 30%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form>
+			<!-- your code here -->
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<input type="radio" name="sex" id="" value="Male" />
+						<label for="Male">Male</label>
+						<br />
+						<input type="radio" name="sex" id="" value="Female" />
+						<label for="Female">Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye Color</td>
+					<td>
+						<select id="eye-color" name="eye-color">
+							<option value="green">green</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<input type="checkbox" id="opt1" name="opt1" value="6-feet" />
+						<label for="opt1"> Over 6 feet tall</label><br />
+						<input type="checkbox" id="opt2" name="opt2" value="200-pounds" />
+						<label for="opt2"> Over 200 pounds</label><br />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="">Describe your athletic ability:</label>
+						<br />
+						<input type="text" name="description" id="description" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="button" value="Enter my information" id="submit-button" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
